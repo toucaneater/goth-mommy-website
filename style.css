@@ -1,11 +1,17 @@
+:root {
+    --NIGGA: rgb(19, 18, 18);
+    --good: rgb(97,34,82)
+}
+
+
 * {
-    background-color: rgb(19, 18, 18);
+    background-color: var(--NIGGA);
 }
 
 header {
-  background-color: rgb(92, 43, 80);
+  background-color: rgb(97, 34, 82);
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 10vh;
   color: white;
 }
