@@ -24,3 +24,16 @@ h2 {
   font-size: 5vh;
   color: var(--primary);
 }
+
+button.comingsoon {
+  
+  background-color: var(--primary);
+  pointer-events: none;
+  cursor: not-allowed;         
+  border: none;
+  color: var(--black);
+  padding: 1vh 2vh;
+  text-align: center;
+  display: inline-block;
+  font-size: 2vh; 
+}
