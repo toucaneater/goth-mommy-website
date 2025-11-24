@@ -4,17 +4,23 @@
 }
 
 
-body {
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: var(--black);
+    background-image: url("gothbackground.png");
 }
 
 header {
+  height: 10vh;
   background-color: var(--primary);
-  padding-top: 0.01vh;
-  padding-bottom: 0.01vh;
-  padding-left: 1vw;
-  padding-right:1vw;
-  text-align: left;
+  background-size: 0vh;
+  padding-top: 0vh;
+  padding-bottom: 0vh;
+  padding-left: 10vw;
+  padding-right: 1vw;
+  text-align: left;;
   font-size: 4vh;
   color: var(--black);
 }
