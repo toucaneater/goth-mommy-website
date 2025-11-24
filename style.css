@@ -92,5 +92,6 @@ img {
 }
 
 button {
-  right: 100vh;
+  top: 50%;
+  bottom: auto;
 }
