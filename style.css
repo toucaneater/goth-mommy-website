@@ -1,7 +1,3 @@
-{
-  font-family: 'Arial', sans-serif;
-}
-
 :root {
     --black: rgb(19, 18, 18);
     --primary: rgb(97,34,82)
@@ -46,6 +42,13 @@ h3 {
   color: var(--primary);
 }
 
+h4 {
+    margin: 0;
+    padding-left: 10vh;
+    font-size: 5.5vh;           /* scale with screen size */
+    color: white);
+}
+
 button.comingsoon {
   pointer-events: none;
   cursor: not-allowed;         
@@ -55,6 +58,12 @@ button.comingsoon {
 }
 
 .center-box {
+text-size-adjust: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   position: relative;
     width: 170vh;
     height: 90vh;

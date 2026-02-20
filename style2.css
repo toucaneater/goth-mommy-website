@@ -1,0 +1,9 @@
+.center-box {
+  position: relative;
+    width: 170vh;
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.8); /* 0.5 = 50% opacity */
+    margin: 0 auto;
+    margin-top: 0px;
+    border-radius: 4px;
+}
