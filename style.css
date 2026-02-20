@@ -1,3 +1,7 @@
+{
+  font-family: 'Arial', sans-serif;
+}
+
 :root {
     --black: rgb(19, 18, 18);
     --primary: rgb(97,34,82)
@@ -53,7 +57,7 @@ button.comingsoon {
 .center-box {
   position: relative;
     width: 170vh;
-    height: 88.2vh;
+    height: 90vh;
     background: rgba(0, 0, 0, 0.8); /* 0.5 = 50% opacity */
     margin: 0 auto;
     margin-top: 0px;
@@ -91,7 +95,25 @@ img {
   display: block;
 }
 
-button {
-  top: 50%;
-  bottom: auto;
+body {
+    position: relative;
+    min-height: 100vh;
 }
+
+#Button {
+    cursor: pointer;
+    background-image: url("continue.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 80px;
+    border: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4vh;
+    background-color: black;
+    color: darkred;
+    position: absolute;
+    bottom: 20px;   /* distance from bottom */
+    left: 50%;
+    transform: translateX(-50%);
