@@ -22,8 +22,35 @@
         <div class="right-box">
              <img id="right-img" src="ovulating.jpg" alt="">
         </div>
-<a href="goodboy.html"
+
             <button id="Button"> </button>
 </div>
-       
+
+<audio id="mysound" src="website.mp3"></audio>
+
+<script>
+document.getElementById("Button").onclick = function() {
+
+    // Remove only children inside center-box
+    document.querySelectorAll(".center-box > div").forEach(child => {
+        child.style.display = "none";
+    });
+
+    // Remove button itself
+    this.style.display = "none";
+
+    // Add new text
+    const message = document.createElement("h2");
+    message.innerText = "You're a good boy.";
+    message.style.color = "white";
+    message.style.textAlign = "center";
+    message.style.marginTop = "40vh";
+
+    document.querySelector(".center-box").appendChild(message);
+
+    // Play audio
+    document.getElementById("mysound").play();
+};
+</script>
+
     </body>
